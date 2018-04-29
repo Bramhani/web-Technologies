@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+	<student>
+		<Roll_No>10</Roll_No>
+		<Personal_Info>
+			<Name>parth</Name>
+			<Address>pune</Address>
+			<Phone>1234567890</Phone>
+		</Personal_Info>
+		<Class>Second</Class>
+		<Subject>Maths</Subject>
+		<Marks>100</Marks>
+		
+		<Roll_No>20</Roll_No>
+		<Personal_Info>
+			<Name>AnuRadha</Name> 
+			<Address>Bangalore</Address>
+			<Phone>90901233</Phone>
+		</Personal_Info> 
+		<Class>Fifth</Class>
+		<Subject>English</Subject>
+		<Marks>90</Marks>
+		
+		<Roll_No>30</Roll_No>
+		<Personal_Info>
+			<Name>Anand</Name>
+			<Address>Mumbai</Address>
+			<Phone>90901256</Phone>
+		</Personal_Info>
+		<Class>Fifth</Class>
+		<Subject>English</Subject>
+		<Marks>90</Marks>
+	</student>

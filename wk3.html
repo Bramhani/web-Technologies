@@ -1,0 +1,26 @@
+<html>
+<title>Contries</title> <head>
+<script type="text/JavaScript">
+function OnDropDownChange(dropDown)
+{
+	var selectedValue = dropDown.options[dropDown.selectedIndex].value;
+	document.getElementById("txtSelectedCapital").innerHTML = selectedValue;
+}
+</script>
+</head>
+<body>
+<form action = "">
+<select name = "Countries" onChange="OnDropDownChange(this);">
+<option value="">
+--Select a country--
+</option>
+<option value="New Delhi">India</option>
+<option value="Wellington">New Zealand</option>
+<option value="Paris">France</option>
+<option value="Athens">Greece</option>
+<option value="Madrid">Spain</option>
+</select>
+!--<h1 style="color:green" id="txtSelectedCapital" type="text"></h1>--!
+</form>
+</body>
+</html>
